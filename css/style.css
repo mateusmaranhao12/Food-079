@@ -1,0 +1,180 @@
+@charset "UTF-8";
+/*Layout*/
+html, body {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  min-height: 100vh;
+  background-attachment: fixed;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background: linear-gradient(100deg, #353535, #252525, black);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/*Navegação*/
+nav {
+  background: linear-gradient(100deg, #ff9100, #853c00, #1a0c00);
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+nav h6 {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  margin-left: 10px;
+}
+
+nav span {
+  color: #8f4500;
+}
+
+nav img {
+  height: 100px;
+}
+
+nav a:hover {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+}
+
+body.inicial nav a#inicial,
+body.quem_somos nav a#quem_somos,
+body.contato nav a#contato,
+body.cardapio nav a#cardapio {
+  color: #ffd000;
+  cursor: text;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  border: none;
+}
+
+.navbar-site .navbar-nav .nav-link {
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+.navbar-site .navbar-nav .nav-link:hover {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+/*Promoções*/
+.promocoes h1 {
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+.promocoes .carousel-inner {
+  border-radius: 220px;
+}
+
+.promocoes .carousel-caption {
+  background-color: darkorange;
+  border-radius: 20px;
+}
+
+/*Vendas*/
+.vendas h1 {
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+.vendas h4, .vendas p {
+  color: #fff;
+}
+
+/*Footer*/
+footer {
+  background: linear-gradient(100deg, #ff9100, #853c00, #1a0c00);
+}
+
+footer h3, footer h5 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+/*Quem somos*/
+.quemsomos {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.quemsomos h1 {
+  color: white;
+  text-transform: uppercase;
+}
+
+.quemsomos p {
+  color: #fff;
+}
+
+/*Contato*/
+.contatos {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.contatos .wpp {
+  color: yellowgreen;
+}
+
+.contatos .insta {
+  background-image: -webkit-gradient(linear, left top, right top, from(#ffd900), color-stop(#ff0000), to(#b700ff));
+  background-image: linear-gradient(to right, #ffd900, #ff0000, #b700ff);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.contatos .facebook {
+  color: skyblue;
+}
+
+.contatos h1 {
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.contatos h5 {
+  color: #fff;
+  text-align: center;
+}
+
+/*Cardápio*/
+.cardapio h1 {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cardapio th, .cardapio td {
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
